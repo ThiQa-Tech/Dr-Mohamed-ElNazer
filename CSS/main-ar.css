@@ -1,0 +1,138 @@
+:root{
+    --spacing:0;
+}
+body{
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+}
+.navbar{
+    direction: ltr;
+}
+.landing .text{
+    text-align: right;
+}
+@media (max-width:767px) {
+  .landing .text{
+    text-align: center;
+  }
+}
+.landing .text h2{
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+
+}
+.services h2{
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+}
+.progress-container{
+    direction: ltr;
+}
+
+.beforeAndAfter h2,
+.Book h2,
+.about .text h2
+{
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+/* footer  */
+.footer-col h4::before {
+	right: 0;
+}
+
+.footer-col ul li a:hover {
+	color: #FFF;
+	padding-right: 10px;
+}
+.footer-col ul li .icon{
+padding-left: 10px;
+}
+.footer-col ul li a:hover .icon{
+  color: var(--second-color);
+}
+
+.footer-col .social-links a {
+  color: #FFF;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 10px 10px 0;
+	line-height: 40px;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  transform: rotate(360deg) scale(1.4);
+}
+
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
+footer hr{
+  color: var(--second-color);
+  width: 60%;
+  margin: auto;
+  height: 3px;
+  margin-bottom: 20px;
+}
+footer .made{
+color: #876d38;
+  text-align: center;
+  word-spacing: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+footer .made a{
+color: rgb(152, 145, 145);
+font-weight: 600;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* start about page  */
+.about-section
+{
+  height: 400px;
+}
+@media (max-width:767px)
+{
+  .about-section p{
+    letter-spacing: 1.5;
+  }
+}
+.about-section h3{
+  font-family: "Cairo",sans-serif;
+}
+.about-section .container p{
+  line-height: 2;
+}
+.details h2,
+.booking h2,
+.transformations h2,
+.videos h2,
+.contact h2,
+.addresses h2
+{
+  font-family: "Cairo",sans-serif;
+  font-weight: 600;
+}
+.contact .boxes h3::after{
+  right: 0;
+}
+/* End about page  */
+/* start booking page  */
+/* End booking page  */
+
